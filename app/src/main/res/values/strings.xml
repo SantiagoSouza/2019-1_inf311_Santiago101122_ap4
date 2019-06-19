@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ap4A</string>
+    <string name="tv_peso">Peso:</string>
+    <string name="tv_sexo">Sexo (m / f):</string>
+    <string name="tv_ncopos">Nº copos:</string>
+    <string name="tv_jejum">Está de jejum? \n (s / n)</string>
+    <string name="bu_ccalcool">Calcular e Classificar Alcoolemia</string>
+    <string name="bu_edados">Enviar Dados</string>
+</resources>

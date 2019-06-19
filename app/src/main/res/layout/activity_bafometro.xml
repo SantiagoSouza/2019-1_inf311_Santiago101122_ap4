@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.nom.souza.santiago.ap4a.Bafometro">
+
+    <TextView
+        android:id="@+id/tvPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvSexo"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/tvSexo"
+        android:layout_marginTop="50dp"
+        android:text="@string/tv_peso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPeso"
+        android:layout_alignBottom="@+id/tvPeso"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPeso"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/etSexo"
+        android:layout_toStartOf="@+id/etSexo"
+        android:text="@string/tv_sexo" />
+
+    <EditText
+        android:id="@+id/etSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvSexo"
+        android:layout_alignLeft="@+id/etPeso"
+        android:layout_alignStart="@+id/etPeso"
+        android:layout_below="@+id/etPeso"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvNcopos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvPeso"
+        android:layout_alignRight="@+id/tvPeso"
+        android:layout_below="@+id/etSexo"
+        android:layout_marginTop="15dp"
+        android:text="@string/tv_ncopos" />
+
+    <EditText
+        android:id="@+id/etNcopos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvNcopos"
+        android:layout_alignBottom="@+id/tvNcopos"
+        android:layout_alignLeft="@+id/etSexo"
+        android:layout_alignStart="@+id/etSexo"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvJejum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvSexo"
+        android:layout_alignRight="@+id/tvSexo"
+        android:layout_below="@+id/etNcopos"
+        android:layout_marginTop="12dp"
+        android:text="@string/tv_jejum" />
+
+    <EditText
+        android:id="@+id/etJejum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvJejum"
+        android:layout_alignBottom="@+id/tvJejum"
+        android:layout_alignLeft="@+id/etNcopos"
+        android:layout_alignStart="@+id/etNcopos"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bu_edados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etJejum"
+        android:layout_alignStart="@+id/etJejum"
+        android:layout_below="@+id/tvJejum"
+        android:layout_marginTop="36dp"
+        android:text="@string/bu_edados" />
+
+</RelativeLayout>
