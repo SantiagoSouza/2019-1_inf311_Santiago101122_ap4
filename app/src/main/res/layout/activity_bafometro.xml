@@ -13,7 +13,7 @@
         android:layout_alignEnd="@+id/tvSexo"
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/tvSexo"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="80dp"
         android:text="@string/tv_peso"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -28,7 +28,7 @@
         android:layout_alignBottom="@+id/tvPeso"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="50dp"
         android:layout_marginRight="20dp"
         android:ems="10"
         android:inputType="textPersonName" />
@@ -105,7 +105,9 @@
         android:layout_alignLeft="@+id/etJejum"
         android:layout_alignStart="@+id/etJejum"
         android:layout_below="@+id/tvJejum"
-        android:layout_marginTop="36dp"
-        android:text="@string/bu_edados" />
+        android:layout_marginTop="40dp"
+        android:text="@string/bu_edados"
+        android:onClick="enviarDados"
+        />
 
 </RelativeLayout>
